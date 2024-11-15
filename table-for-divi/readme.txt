@@ -2,7 +2,7 @@
 Contributors: wasim98
 Tags: table, divi
 Requires at least: 4.0.0
-Tested up to: 6.6
+Tested up to: 6.7
 Stable tag: 1.3.0
 Requires PHP: 5.6
 License: GPLv2 or later
@@ -61,6 +61,10 @@ Yes, absolutely! There is no dynamic logic in the PHP code like other plugins ha
 This plugin is kept compatible with the latest Divi release.
 
 We did test it with all releases since the initial Divi 3.0 release. Possibly it will also work with older versions
+
+= How can I report security bugs? =
+
+You can report security bugs through the Patchstack Vulnerability Disclosure Program. The Patchstack team help validate, triage and handle any security vulnerabilities. [Report a security vulnerability.](https://patchstack.com/database/vdp/table-for-divi)
 
 
 == Changelog ==
