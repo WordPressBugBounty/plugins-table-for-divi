@@ -2,8 +2,8 @@
 Contributors: wasim98
 Tags: table, divi
 Requires at least: 4.0.0
-Tested up to: 6.8
-Stable tag: 1.4.0
+Tested up to: 7.1
+Stable tag: 2.0.0
 Requires PHP: 5.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -12,14 +12,16 @@ A quick and easy way to create HTML Table inside the Divi Visual Builder!
 
 == Description ==
 
+**FULLY COMPATIBLE TO DIVI 5**
+
 Table for Divi is a free plugin that provides a Divi table module that can be used to make simple and complex table layouts.
 
 
 # Requirements
 
 - WordPress (Version 5.0 or higher)
-- Divi Theme or Extra Theme
-- Divi Builder
+- Divi5 Theme
+- Divi5 Builder
 
 
 # ℹ️ How it works
@@ -27,13 +29,27 @@ Table for Divi is a free plugin that provides a Divi table module that can be us
 First, activate the plugin (no configuration needed!)
 
 1. Open up your Visual Builder and click on Plus (+) icon to add new module
-2. Select the Tab Divi Table module
+2. Select the **Divi Table** module
 3. Create new row and add your data to columns
 
 
 # How to add blank column
 
 To add a blank column in the row just add HTML space entity code `(&nbsp;)` to your column
+
+
+## How to Update Divi 4 Table Modules to Divi 5
+
+If you are using the previous version of the **Table for Divi** plugin and have upgraded your theme to Divi 5, you will need to update your table modules to ensure full compatibility with Divi 5 functionality.
+
+### Steps to Update
+
+- **Step 1:** Update your theme to Divi 5 and use the built-in Divi 5 migrator to update your default Divi modules.
+- **Step 2:** Update the **Table for Divi** plugin to **Version 2.0.0 or higher**, which has been rebuilt from scratch for Divi 5 to provide native support.
+- **Step 3:** Navigate to the **Table for Divi** page in the WordPress admin sidebar, click the **'Migrate All Tables to Divi 5'** button, and wait 5–10 seconds depending on your database size.
+- **Step 4:** Once you see the success message confirming that all table modules have been successfully migrated to Divi 5, you are ready to use the table module in Divi 5.
+
+**Happy Building!**
 
 
 == Installation ==
@@ -68,6 +84,11 @@ You can report security bugs through the Patchstack Vulnerability Disclosure Pro
 
 
 == Changelog ==
+
+= 2.0.0 =
+
+- Rebuilt **Version 2.0.0** from scratch to support Divi 5 functionality.
+- Added an admin page to easily migrate existing tables to Divi 5.
 
 = 1.4.0 =
 
