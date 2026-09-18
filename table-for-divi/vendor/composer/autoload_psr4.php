@@ -6,5 +6,5 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'TFDT\\' => array($baseDir . '/'),
+    'TFDT\\Modules\\' => array($baseDir . '/Modules'),
 );

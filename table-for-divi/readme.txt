@@ -3,7 +3,7 @@ Contributors: wasim98
 Tags: table, divi
 Requires at least: 4.0.0
 Tested up to: 7.1
-Stable tag: 2.0.0
+Stable tag: 2.1.0
 Requires PHP: 5.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -85,7 +85,11 @@ You can report security bugs through the Patchstack Vulnerability Disclosure Pro
 
 == Changelog ==
 
-= 2.0.0 =
+= 2.1.0 - 2026-09-18 =
+
+- Fixed: https://wordpress.org/support/topic/latest-update-broke-website-3/
+
+= 2.0.0 - 2026-09-15 =
 
 - Rebuilt **Version 2.0.0** from scratch to support Divi 5 functionality.
 - Added an admin page to easily migrate existing tables to Divi 5.

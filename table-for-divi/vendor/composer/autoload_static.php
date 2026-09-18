@@ -9,19 +9,37 @@ class ComposerStaticInit72db0a52771cb03852551b281764d77e
     public static $prefixLengthsPsr4 = array (
         'T' => 
         array (
-            'TFDT\\' => 5,
+            'TFDT\\Modules\\' => 13,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'TFDT\\' => 
+        'TFDT\\Modules\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/',
+            0 => __DIR__ . '/../..' . '/Modules',
         ),
     );
 
     public static $classMap = array (
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
+        'TFDT\\Modules\\TableCellModule\\TableCellModule' => __DIR__ . '/../..' . '/Modules/TableCellModule/TableCellModule.php',
+        'TFDT\\Modules\\TableCellModule\\TableCellModuleTrait\\CustomCssTrait' => __DIR__ . '/../..' . '/Modules/TableCellModule/TableCellModuleTrait/CustomCssTrait.php',
+        'TFDT\\Modules\\TableCellModule\\TableCellModuleTrait\\ModuleClassnamesTrait' => __DIR__ . '/../..' . '/Modules/TableCellModule/TableCellModuleTrait/ModuleClassnamesTrait.php',
+        'TFDT\\Modules\\TableCellModule\\TableCellModuleTrait\\ModuleScriptDataTrait' => __DIR__ . '/../..' . '/Modules/TableCellModule/TableCellModuleTrait/ModuleScriptDataTrait.php',
+        'TFDT\\Modules\\TableCellModule\\TableCellModuleTrait\\ModuleStylesTrait' => __DIR__ . '/../..' . '/Modules/TableCellModule/TableCellModuleTrait/ModuleStylesTrait.php',
+        'TFDT\\Modules\\TableCellModule\\TableCellModuleTrait\\RenderCallbackTrait' => __DIR__ . '/../..' . '/Modules/TableCellModule/TableCellModuleTrait/RenderCallbackTrait.php',
+        'TFDT\\Modules\\TableModule\\TableModule' => __DIR__ . '/../..' . '/Modules/TableModule/TableModule.php',
+        'TFDT\\Modules\\TableModule\\TableModuleTrait\\CustomCssTrait' => __DIR__ . '/../..' . '/Modules/TableModule/TableModuleTrait/CustomCssTrait.php',
+        'TFDT\\Modules\\TableModule\\TableModuleTrait\\ModuleClassnamesTrait' => __DIR__ . '/../..' . '/Modules/TableModule/TableModuleTrait/ModuleClassnamesTrait.php',
+        'TFDT\\Modules\\TableModule\\TableModuleTrait\\ModuleScriptDataTrait' => __DIR__ . '/../..' . '/Modules/TableModule/TableModuleTrait/ModuleScriptDataTrait.php',
+        'TFDT\\Modules\\TableModule\\TableModuleTrait\\ModuleStylesTrait' => __DIR__ . '/../..' . '/Modules/TableModule/TableModuleTrait/ModuleStylesTrait.php',
+        'TFDT\\Modules\\TableModule\\TableModuleTrait\\RenderCallbackTrait' => __DIR__ . '/../..' . '/Modules/TableModule/TableModuleTrait/RenderCallbackTrait.php',
+        'TFDT\\Modules\\TableRowModule\\TableRowModule' => __DIR__ . '/../..' . '/Modules/TableRowModule/TableRowModule.php',
+        'TFDT\\Modules\\TableRowModule\\TableRowModuleTrait\\CustomCssTrait' => __DIR__ . '/../..' . '/Modules/TableRowModule/TableRowModuleTrait/CustomCssTrait.php',
+        'TFDT\\Modules\\TableRowModule\\TableRowModuleTrait\\ModuleClassnamesTrait' => __DIR__ . '/../..' . '/Modules/TableRowModule/TableRowModuleTrait/ModuleClassnamesTrait.php',
+        'TFDT\\Modules\\TableRowModule\\TableRowModuleTrait\\ModuleScriptDataTrait' => __DIR__ . '/../..' . '/Modules/TableRowModule/TableRowModuleTrait/ModuleScriptDataTrait.php',
+        'TFDT\\Modules\\TableRowModule\\TableRowModuleTrait\\ModuleStylesTrait' => __DIR__ . '/../..' . '/Modules/TableRowModule/TableRowModuleTrait/ModuleStylesTrait.php',
+        'TFDT\\Modules\\TableRowModule\\TableRowModuleTrait\\RenderCallbackTrait' => __DIR__ . '/../..' . '/Modules/TableRowModule/TableRowModuleTrait/RenderCallbackTrait.php',
     );
 
     public static function getInitializer(ClassLoader $loader)

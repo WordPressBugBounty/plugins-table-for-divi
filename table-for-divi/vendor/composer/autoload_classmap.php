@@ -7,4 +7,22 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
+    'TFDT\\Modules\\TableCellModule\\TableCellModule' => $baseDir . '/Modules/TableCellModule/TableCellModule.php',
+    'TFDT\\Modules\\TableCellModule\\TableCellModuleTrait\\CustomCssTrait' => $baseDir . '/Modules/TableCellModule/TableCellModuleTrait/CustomCssTrait.php',
+    'TFDT\\Modules\\TableCellModule\\TableCellModuleTrait\\ModuleClassnamesTrait' => $baseDir . '/Modules/TableCellModule/TableCellModuleTrait/ModuleClassnamesTrait.php',
+    'TFDT\\Modules\\TableCellModule\\TableCellModuleTrait\\ModuleScriptDataTrait' => $baseDir . '/Modules/TableCellModule/TableCellModuleTrait/ModuleScriptDataTrait.php',
+    'TFDT\\Modules\\TableCellModule\\TableCellModuleTrait\\ModuleStylesTrait' => $baseDir . '/Modules/TableCellModule/TableCellModuleTrait/ModuleStylesTrait.php',
+    'TFDT\\Modules\\TableCellModule\\TableCellModuleTrait\\RenderCallbackTrait' => $baseDir . '/Modules/TableCellModule/TableCellModuleTrait/RenderCallbackTrait.php',
+    'TFDT\\Modules\\TableModule\\TableModule' => $baseDir . '/Modules/TableModule/TableModule.php',
+    'TFDT\\Modules\\TableModule\\TableModuleTrait\\CustomCssTrait' => $baseDir . '/Modules/TableModule/TableModuleTrait/CustomCssTrait.php',
+    'TFDT\\Modules\\TableModule\\TableModuleTrait\\ModuleClassnamesTrait' => $baseDir . '/Modules/TableModule/TableModuleTrait/ModuleClassnamesTrait.php',
+    'TFDT\\Modules\\TableModule\\TableModuleTrait\\ModuleScriptDataTrait' => $baseDir . '/Modules/TableModule/TableModuleTrait/ModuleScriptDataTrait.php',
+    'TFDT\\Modules\\TableModule\\TableModuleTrait\\ModuleStylesTrait' => $baseDir . '/Modules/TableModule/TableModuleTrait/ModuleStylesTrait.php',
+    'TFDT\\Modules\\TableModule\\TableModuleTrait\\RenderCallbackTrait' => $baseDir . '/Modules/TableModule/TableModuleTrait/RenderCallbackTrait.php',
+    'TFDT\\Modules\\TableRowModule\\TableRowModule' => $baseDir . '/Modules/TableRowModule/TableRowModule.php',
+    'TFDT\\Modules\\TableRowModule\\TableRowModuleTrait\\CustomCssTrait' => $baseDir . '/Modules/TableRowModule/TableRowModuleTrait/CustomCssTrait.php',
+    'TFDT\\Modules\\TableRowModule\\TableRowModuleTrait\\ModuleClassnamesTrait' => $baseDir . '/Modules/TableRowModule/TableRowModuleTrait/ModuleClassnamesTrait.php',
+    'TFDT\\Modules\\TableRowModule\\TableRowModuleTrait\\ModuleScriptDataTrait' => $baseDir . '/Modules/TableRowModule/TableRowModuleTrait/ModuleScriptDataTrait.php',
+    'TFDT\\Modules\\TableRowModule\\TableRowModuleTrait\\ModuleStylesTrait' => $baseDir . '/Modules/TableRowModule/TableRowModuleTrait/ModuleStylesTrait.php',
+    'TFDT\\Modules\\TableRowModule\\TableRowModuleTrait\\RenderCallbackTrait' => $baseDir . '/Modules/TableRowModule/TableRowModuleTrait/RenderCallbackTrait.php',
 );
