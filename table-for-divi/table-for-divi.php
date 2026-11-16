@@ -4,7 +4,7 @@
 Plugin Name: Table for Divi
 Plugin URI:  https://github.com/wasimhere/table-for-divi
 Description: Table for Divi module can be used for simple and complex table layouts without any code
-Version:     2.1.0
+Version:     2.2.0
 Author:      Wasim
 Author URI:  https://wasimhere.github.io/
 License:     GPL2
@@ -38,9 +38,9 @@ if ( file_exists( TFDT_PATH . 'vendor/autoload.php' ) ) {
 
 }
 
-if ( file_exists( TFDT_PATH . 'modules/Modules.php' ) ) {
+if ( file_exists( TFDT_PATH . 'Modules/Modules.php' ) ) {
 
-  require_once TFDT_PATH . 'modules/Modules.php';
+  require_once TFDT_PATH . 'Modules/Modules.php';
 
 }
 

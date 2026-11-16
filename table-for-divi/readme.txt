@@ -3,7 +3,7 @@ Contributors: wasim98
 Tags: table, divi
 Requires at least: 4.0.0
 Tested up to: 7.1
-Stable tag: 2.1.0
+Stable tag: 2.2.0
 Requires PHP: 5.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -84,6 +84,10 @@ You can report security bugs through the Patchstack Vulnerability Disclosure Pro
 
 
 == Changelog ==
+
+= 2.2.0 - 2026-11-16 =
+
+- Fixed case-sensitive error: Changed modules to Modules (capital M) in table-for-divi.php
 
 = 2.1.0 - 2026-09-18 =
 
